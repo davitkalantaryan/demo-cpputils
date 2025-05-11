@@ -9,9 +9,13 @@
 
 #include <memory>
 
+#ifndef CPPUTILS_VISIBILITY
+#define CPPUTILS_VISIBILITY  public
+#endif
+
 class TestClass
 {
-//public:
+CPPUTILS_VISIBILITY:
     friend class ::std::shared_ptr<TestClass>;
     ~TestClass() = default;
 public:
