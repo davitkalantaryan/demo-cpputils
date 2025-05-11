@@ -18,6 +18,8 @@ SUBDIRS	+= "$${cpputilsDemoRepoRoot}/prj/tests/std_shared_ptr_friend_error_qt/st
 OTHER_FILES += $$files($${cpputilsDemoRepoRoot}/docs/*.md,true)
 OTHER_FILES += $$files($${cpputilsDemoRepoRoot}/docs/*.txt,true)
 #OTHER_FILES += $$files($${cpputilsDemoRepoRoot}/.github/*.yml,true)
+OTHER_FILES += $$files($${cpputilsDemoRepoRoot}/scripts/*.sh,true)
+OTHER_FILES += $$files($${cpputilsDemoRepoRoot}/scripts/*.bat,true)
 OTHER_FILES += $$files($${cpputilsDemoRepoRoot}/prj/common/common_mkfl/*.Makefile,true)
 
 OTHER_FILES	+=	\

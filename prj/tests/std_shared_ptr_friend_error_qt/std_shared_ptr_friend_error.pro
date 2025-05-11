@@ -16,6 +16,19 @@ QT -= widgets
 CONFIG -= qt
 CONFIG += console
 
+isEmpty(CPPUTILS_VISIBILITY) {
+    CPPUTILS_VISIBILITY = $$(CPPUTILS_VISIBILITY)
+    isEmpty(CPPUTILS_VISIBILITY) {
+	message("-- CPPUTILS_VISIBILITY is not defined")
+    } else {
+	DEFINES += CPPUTILS_VISIBILITY=$${CPPUTILS_VISIBILITY}
+	message("++ CPPUTILS_VISIBILITY=$${CPPUTILS_VISIBILITY}")
+    }
+} else {
+    DEFINES += CPPUTILS_VISIBILITY=$${CPPUTILS_VISIBILITY}
+    message("++ CPPUTILS_VISIBILITY=$${CPPUTILS_VISIBILITY}")
+}
+
 win32{
 } else {
     LIBS += -pthread
