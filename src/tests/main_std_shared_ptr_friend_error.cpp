@@ -10,7 +10,7 @@
 #include <memory>
 
 #ifndef CPPUTILS_VISIBILITY
-#define CPPUTILS_VISIBILITY  public
+#define CPPUTILS_VISIBILITY  private
 #endif
 
 class TestClass
