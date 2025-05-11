@@ -6,3 +6,4 @@
  $(CpputilsDemoVirtProjectDir)..\..\..\sys\win_$(PlatformTarget)\$(Configuration)\.other\objects\$(ProjectName)\
  $(CpputilsDemoVirtWorkspaceDir)..\..\sys\win_$(PlatformTarget)\$(Configuration)\util\
  $(CpputilsDemoVirtWorkspaceDir)..\..\sys\win_$(PlatformTarget)\$(Configuration)\.other\objects\$(ProjectName)\
+ cpputilsDemoFlagsAndSysCommonIncluded

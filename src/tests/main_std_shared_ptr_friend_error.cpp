@@ -11,6 +11,7 @@
 
 class TestClass
 {
+//public:
     friend class ::std::shared_ptr<TestClass>;
     ~TestClass() = default;
 public:

@@ -1,24 +1,23 @@
 #
-# repo:			cinternal
+# repo:			cpputilsdemo
 # name:			flagsandsys_common.pri
 # path:			prj/common/common_qt/flagsandsys_common.pri
-# created on:           2023 Jun 21
-# created by:           Davit Kalantaryan (davit.kalantaryan@desy.de)
-# usage:		Use this qt include file to calculate some platform specific stuff
+# created on:   2025 May 11
+# created by:   Davit Kalantaryan (davit.kalantaryan@desy.de)
 #
 
 
 message("!!! $${PWD}/flagsandsys_common.pri")
 
-isEmpty(cinternalFlagsAndSysCommonIncluded){
-    cinternalFlagsAndSysCommonIncluded = 1
+isEmpty(cpputilsDemoFlagsAndSysCommonIncluded){
+    cpputilsDemoFlagsAndSysCommonIncluded = 1
 
-    cinternalRepoRoot = $${PWD}/../../..
+    cpputilsDemoRepoRoot = $${PWD}/../../..
 
     isEmpty(artifactRoot) {
         artifactRoot = $$(artifactRoot)
         isEmpty(artifactRoot) {
-            artifactRoot = $${cinternalRepoRoot}
+            artifactRoot = $${cpputilsDemoRepoRoot}
         }
     }
 
