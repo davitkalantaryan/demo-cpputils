@@ -1,2 +1,5 @@
 
- CpputilsDemoRepoRoot
+ cpputilsDemoRepoRoot
+ $(MSBuildThisFileDirectory)..\..\..
+ $(CpputilsDemoVirtProjectDir)..\..\..\sys\win_$(PlatformTarget)\$(Configuration)\test\
+ $(CpputilsDemoVirtProjectDir)..\..\..\sys\win_$(PlatformTarget)\$(Configuration)\.other\objects\$(ProjectName)\
