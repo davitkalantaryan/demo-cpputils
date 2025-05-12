@@ -46,7 +46,7 @@ You can find that implementation here:
 
 To show the failure clearly, I created a separate repository with code that reproduces the issue:
 
-* [Demo (fails to compile)](https://github.com/davitkalantaryan/demo-cpputils)
+* [Demo (fails to compile)](https://github.com/davitkalantaryan/demo-cpputils/blob/master/src/tests/main_std_shared_ptr_friend_error.cpp)
 
 This is not a corner case. It can and does happen in real projects — especially when teams grow and enforce stricter ownership models.
 
