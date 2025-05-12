@@ -66,7 +66,7 @@ This gives more transparency and diagnostic power for advanced scenarios (e.g., 
 
 I have prepared a formal proposal suitable for submission to WG21:
 
-* [📄 Download DOCX Proposal](https://github.com/davitkalantaryan/demo-cpputils/releases)
+* [📄 Download DOCX Proposal](https://github.com/davitkalantaryan/demo-cpputils/blob/master/docs/doc/SharedPtr_Proposal_DavitKalantaryan_FINAL_v2.docx)
 
 ### 🧭 Publishing Channels
 
