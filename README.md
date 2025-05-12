@@ -73,7 +73,7 @@ I have prepared a formal proposal suitable for submission to WG21:
 This article is published across:
 
 * [LinkedIn Article](#)
-* [Medium Blog](#)
+* [Medium Blog](https://medium.com/@davit.kalantaryan1980/why-std-shared-ptr-should-support-classes-with-protected-destructors-ea4dee6a377d)
 * [Reddit Post in r/cpp](#)
 * [GitHub README](https://github.com/davitkalantaryan/demo-cpputils)
 
