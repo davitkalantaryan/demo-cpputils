@@ -1,6 +1,6 @@
 ## Why `std::shared_ptr` Should Support Classes with Protected Destructors
 
-**Author:** Davit Kalantaryan
+**Author:** Davit Kalantaryan  
 **GitHub:** [github.com/davitkalantaryan](https://github.com/davitkalantaryan)
 
 ---
@@ -46,7 +46,7 @@ You can find that implementation here:
 
 To show the failure clearly, I created a separate repository with code that reproduces the issue:
 
-* [Demo (fails to compile)](https://github.com/davitkalantaryan/demo-cpputils)
+* [Demo (fails to compile)](https://github.com/davitkalantaryan/demo-cpputils/blob/master/src/tests/main_std_shared_ptr_friend_error.cpp)
 
 This is not a corner case. It can and does happen in real projects — especially when teams grow and enforce stricter ownership models.
 
@@ -66,15 +66,15 @@ This gives more transparency and diagnostic power for advanced scenarios (e.g., 
 
 I have prepared a formal proposal suitable for submission to WG21:
 
-* [📄 Download DOCX Proposal](https://github.com/davitkalantaryan/demo-cpputils/blob/master/docs/doc/SharedPtr_Proposal_DavitKalantaryan_FINAL_v2.docx)
+* [📄 Download DOCX Proposal](https://github.com/user-attachments/files/20157741/SharedPtr_Proposal_DavitKalantaryan_FINAL_v2.docx)
 
 ### 🧭 Publishing Channels
 
 This article is published across:
 
-* [LinkedIn Article](#)
-* [Medium Blog](#)
-* [Reddit Post in r/cpp](#)
+* [LinkedIn Article](https://www.linkedin.com/pulse/why-stdsharedptr-should-support-classes-protected-davit-kalantaryan-llpfe)
+* [Medium Blog](https://medium.com/@davit.kalantaryan1980/why-std-shared-ptr-should-support-classes-with-protected-destructors-ea4dee6a377d)
+* [Reddit Post in r/cpp](https://www.reddit.com/r/cpp/comments/1kkod8s/why_stdshared_ptr_should_support_classes_with/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
 * [GitHub README](https://github.com/davitkalantaryan/demo-cpputils)
 
 ### 🙏 Feedback Welcome

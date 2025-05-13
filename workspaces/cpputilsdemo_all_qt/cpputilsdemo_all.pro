@@ -14,7 +14,6 @@ TEMPLATE = subdirs
 
 SUBDIRS	+= "$${cpputilsDemoRepoRoot}/prj/tests/std_shared_ptr_friend_error_qt/std_shared_ptr_friend_error.pro"
 
-
 OTHER_FILES += $$files($${cpputilsDemoRepoRoot}/docs/*.md,true)
 OTHER_FILES += $$files($${cpputilsDemoRepoRoot}/docs/*.txt,true)
 #OTHER_FILES += $$files($${cpputilsDemoRepoRoot}/.github/*.yml,true)
